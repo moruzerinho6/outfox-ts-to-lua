@@ -1,0 +1,3 @@
+declare interface ScreenWithMenuElementsSimple extends ScreenWithMenuElements {}
+
+declare const ScreenWithMenuElementsSimple: ScreenWithMenuElementsSimple

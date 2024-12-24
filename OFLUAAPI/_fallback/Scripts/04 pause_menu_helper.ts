@@ -1,0 +1,1 @@
+declare const pause_controller_actor: () => Actor

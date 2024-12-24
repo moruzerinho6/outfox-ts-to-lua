@@ -1,0 +1,1 @@
+declare const new_numpad_entry: (params: any) => LuaMetatable<{}>

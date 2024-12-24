@@ -1,0 +1,56 @@
+interface TweenProperties {
+  linear: (t: number) => number
+  step: (t: number) => number
+  smoothstep: (t: number) => number
+  inquad: (t: number) => number
+  outquad: (t: number) => number
+  inoutquad: (t: number) => number
+  incubic: (t: number) => number
+  outcubic: (t: number) => number
+  inoutcubic: (t: number) => number
+  outincubic: (t: number) => number
+  inquart: (t: number) => number
+  outquart: (t: number) => number
+  inoutquart: (t: number) => number
+  outinquart: (t: number) => number
+  inquint: (t: number) => number
+  outquint: (t: number) => number
+  inoutquint: (t: number) => number
+  outinquint: (t: number) => number
+  insine: (t: number) => number
+  outsine: (t: number) => number
+  inoutsine: (t: number) => number
+  outinsine: (t: number) => number
+  inexpo: (t: number) => number
+  outexpo: (t: number) => number
+  inoutexpo: (t: number) => number
+  outinexpo: (t: number) => number
+  incircle: (t: number) => number
+  outcircle: (t: number) => number
+  inoutcircle: (t: number) => number
+  outincircle: (t: number) => number
+  inelastic: (t: number) => number
+  outelastic: (t: number) => number
+  inelasticex: (t: number) => number
+  outelasticex: (t: number) => number
+  outinelasticex: (t: number) => number
+  inback: (t: number) => number
+  outback: (t: number) => number
+  inoutback: (t: number) => number
+  outinback: (t: number) => number
+  inbackex: (t: number) => number
+  outbackex: (t: number) => number
+  inoutbackex: (t: number) => number
+  outinbackex: (t: number) => number
+  inbounce: (t: number) => number
+  outbounce: (t: number) => number
+  inoutbounce: (t: number) => number
+  outinbounce: (t: number) => number
+  spring: (t: number) => number
+  smooth: (t: number) => number
+  bouncebegin: (t: number) => number
+  bounceend: (t: number) => number
+  // TODO: good lock documenting all tweens. I'm not gonna do it ~ Zerinho6
+}
+
+export type Tween = TweenProperties
